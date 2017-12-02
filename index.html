@@ -20,6 +20,18 @@ function hideURLbar(){ window.scrollTo(0,1); } </script> -->
     <!-- Font-Awesome-Icons-CSS -->
     <!-- //css files -->
     <!-- Web-Fonts -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(function() {
+                    console.log('service worker registered');
+                })
+                .catch(function() {
+                    console.warn('service worker failed');
+                });
+        }
+    </script>
+
     <style>
         .btn-verde {
             width: 70%;
@@ -62,17 +74,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script> -->
 </head>
 
 <body>
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
-                .then(function() {
-                    console.log('service worker registered');
-                })
-                .catch(function() {
-                    console.warn('service worker failed');
-                });
-        }
-    </script>
+
     <div></div>
     <div class="container" id="inicial">
 
