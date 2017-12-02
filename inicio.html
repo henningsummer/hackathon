@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <title></title>
@@ -31,68 +31,34 @@
 <body>
     <div></div>
 
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
-                .then(function() {
-                    console.log('service worker registered');
-                })
-                .catch(function() {
-                    console.warn('service worker failed');
-                });
-        }
+    <div class="container" id="inicio">
 
-        <
-        div class = "container"
-        id = "inicio" >
+        <div class="graus">
+            <center> 28 º <img src="images/termo.png" alt="logo" class="img-responsive" width="20px"> </center>
+        </div>
 
-            <
-            div class = "graus" > < center > 28 º < img src = "images/termo.png"
-        alt = "logo"
-        class = "img-responsive"
-        width = "20px" > < /center></div >
+        <h2> Temperatura agora no seu local. </h2>
+        </br>
+        <h2> Status das ruas próximas </h2> <img src="images/pin.png" alt="pin" class="icon-gps">
+        <p class="localizacao"> Pegar o GPS </p> <br>
+        <p> Av.Conde da boa vista <span class="alert green"> </span></p>
 
-            <
-            h2 > Temperatura agora no seu local. < /h2> <
-        br >
-            <
-            h2 > Status das ruas próximas < /h2> <
-        img src = "images/pin.png"
-        alt = "pin"
-        class = "icon-gps" >
-            <
-            p class = "localizacao" > Pegar o GPS < /p> <
-        br >
-            <
-            p > Av.Conde da boa vista < span class = "alert green" > < /span></p >
+        <p> Av.Conde da boa vista <span class="alert red"> </span></p>
 
-            <
-            p > Av.Conde da boa vista < span class = "alert red" > < /span></p >
+        <p> Av.Conde da boa vista <span class="alert yellow"> </span></p>
+        <p> Av.Conde da boa vista <span class="alert green"> </span></p>
 
-            <
-            p > Av.Conde da boa vista < span class = "alert yellow" > < /span></p >
+        <form class="rota">
+            <input type="text" name="pesquisa"> <br>
+            <p class="localizacao"> Para onde você vai ? </p>
+        </form>
 
-            <
-            p > Av.Conde da boa vista < span class = "alert green" > < /span></p >
+        <div class="clear"> </div>
+    </div>
 
-            <
-            form class = "rota" >
-            <
-            input type = "text"
-        name = "pesquisa" > < br >
-            <
-            p class = "localizacao" > Para onde você vai ? < /p> < /
-            form >
-
-            <
-            div class = "clear" > < /div> < /
-            div >
-
-            <!-- js-scripts -->			
-            <!-- js -->
-            <
-            script type = "text/javascript"
-        src = "js/jquery-2.1.4.min.js" >
+    <!-- js-scripts -->
+    <!-- js -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js">
     </script>
     <!-- //js -->
     <!-- tabs -->

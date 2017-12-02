@@ -106,7 +106,7 @@ select:focus {
 }
 
 .logo {
-    margin: 30px auto;
+    margin: 200px auto;
 }
 
 .btn-facebook {
@@ -128,21 +128,21 @@ select:focus {
 }
 
 .btn-login {
-    width: 68%;
+    width: 84%;
     margin: 0 auto;
     display: block;
     background: #8cc739;
     border-radius: 100px;
     color: #fff;
-    height: 35px;
-    margin-top: 15px;
+    height: 40px;
+    margin-top: 25px;
     border: none;
     font-size: 1.0em;
     font-family: 'linotte-semibolduploaded_file';
 }
 
 .btn-facebook {
-    width: 57%;
+    width: 68%;
     margin: 0 auto;
     display: block;
     background: #8cc739;
@@ -226,4 +226,8 @@ select:focus {
     font-weight: bolder;
     text-align: center;
     font-size: 1.2em;
+}
+
+.img-responsive {
+    width: 200px;
 }
