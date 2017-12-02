@@ -79,7 +79,9 @@ body{height: 100%}
 	padding-top: 20px;
 }
 .inpult-verde{ border-bottom: 1px solid #8cc739;  border-top:none; font-size: 1.0em; border-left: none; border-right: none; text-align: center; width: 100%; line-height: 40px ;    font-family: 'linotte-semibolduploaded_file';}
-
+.iniciar {
+	width: 70%
+}
 #inicial p {
 	color: #fff;
 	font-size: 1.0em;
