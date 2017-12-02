@@ -28,26 +28,24 @@
     <!-- //Web-Fonts -->
 </head>
 
-<body>
+<body style="background-color: #fff">
 
-    <div> </div>
+  
     <div class="container" id="segundo">
 
-        <p> Quantidade de CO2 <br> Que será emitido neste percuso </p> <button class="bloco"> 
-				<img src = "images/Walk.png"
-        width = "27px" /> <p> 3, 66 kg </p></button >
-            <button class = "bloco"> <img src = "images/Bike.png"
-        width = "40px" /> <p> 0, 915 kg </p></button >
-            <button class = "bloco Activo" > <img src = "images/Bus.png"
-        width = "35px" /> <p> 1, 20 kg </p></dibuttonv >
-            <button class = "bloco" > <img src = "images/Car.png"
-        width = "40px" /> <p> 0 kg </p></button >
-            <button class = "bloco" > <img src = "images/ShareCar.png"
-        width = "40px" / > <p> 0, 00 kg </p></button >
+        <div class="info"><p> Quantidade de CO2 <br> Que será emitido neste percuso </p> </div>
+        <button class="bloco" onclick="ativar()"> <img src="images/Walk.png" width="27px" /> <output id="pessoa">-- -- KG</output></button >
+            <button class="bloco" onclick="ativar()"> <img src = "images/Bike.png" width="40px" /> <output name="bike"></output></button >
+            <button class="bloco" onclick="ativar()"> <img src = "images/Bus.png" width="35px" /> <output name="bus"></output></dibuttonv >
+            <button class="bloco" onclick="ativar()"> <img src = "images/Car.png" width="40px" /> <output name="car"></output></button >
+            <button class="bloco" onclick="ativar()"> <img src = "images/ShareCar.png" width="40px" / > <output name="share"></output></button >
 
-            <div class = "clear" > </div> </div>
+           </div>
 
-        <div class = "alerta" > <p> PARABÉNS!!
+           <div class="clear"> </div>
+        
+
+        <div class="alerta"> <p> PARABÉNS!!
             <br> Em um ano você reduz 400 kg de CO2 </p> </div>
 
         <!-- js-scripts -->			
@@ -65,7 +63,16 @@
                 width: 'auto', //auto or any width like 600px
                 fit: true // 100% fit in a container
             });
+
+            
         });
+        
+        function ativar() {
+            document.getElementById("pessoa").innerHTML = "989 kg";
+        }
+
+
+       
     </script>
     <!-- //tabs -->
     <!-- //js-scripts -->
