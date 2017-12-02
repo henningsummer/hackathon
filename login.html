@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <title></title>
@@ -9,67 +9,71 @@
     <meta name="keywords" content="Classic Forms Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
     <!-- <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script> -->
-
+    <link rel="manifest" href="/manifest.json">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- Meta tag Keywords -->
     <!-- css files -->
-    <link rel="manifest" href="/manifest.json">
+
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
     <!-- <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <!-- Font-Awesome-Icons-CSS -->
     <!-- //css files -->
     <!-- Web-Fonts -->
-    <style>
-    .btn-verde {
-	width: 70%;
-	display: block;
-	background: #fff;
-	border-radius: 20px;
-    height: 38px;
-    text-align: center;
-    padding-top:12px;
-    margin: 110px auto;
-   
-  
-}
-
-body {
-    background:url('images/bg.jpg');
- background-size: 100% 100%;
- 
-
-}
-.btn-verde a {color: #5b8715; text-decoration: none;}
-.logo-big {
-    margin-top: 220px;
-}
-.logo-big p {
-    color: #fff;
-    text-align: center;
-    font-size: 1.2em;
-}
-    </style>
     <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
     <!-- //Web-Fonts -->
 
-   
 </head>
 
 <body>
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyA89vkukqcrz2D_cUxdZnw_pfqRVder4E0",
+            authDomain: "ecoe-fa4f2.firebaseapp.com",
+            databaseURL: "https://ecoe-fa4f2.firebaseio.com",
+            projectId: "ecoe-fa4f2",
+            storageBucket: "ecoe-fa4f2.appspot.com",
+            messagingSenderId: "767348743796"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+
+
     <div></div>
-    <div class="container" id="inicial" >
+    </br>
+    <div>
 
-        
+        <div>
+            <center><img src="images/logoEcoeB.png" alt="logo" style="width:230px;"></center>
 
-        <div class="logo-big">
-            <center><img src="images/logoEcoeB.png" alt="logo" class="img-responsive" width="200px"></center>
-            <p>Redução colaborativa de <br> gases poluentes</p>
+            <p class="topo-logo">Conscientizando Pessoas!</p>
+            <p class="strong">Vamos juntos ajudar nosso planeta!</p>
         </div>
-        
 
-        <div class="btn-verde"><a href="index1.html"  >Iniciar</a></div>
+
+
+        </br>
+
+        <form class="cadastro">
+            <input type="text" name="E-mail" placeholder="E-mail" class="inpult-verde">
+            <input type="password" name="Senha" placeholder="Senha" class="inpult-verde">
+
+            </br>
+            </br>
+            <input type="submit" name="enviar" class="btn-login" value="Entrar">
+        </form>
+
+        <a href="inicio.html" class="btn-facebook">Facebook</a>
+
+        <div class="infor">
+            <p>Não é cadastrado? entre com sua conta no facebook</p>
+        </div>
 
         <div class="clear"></div>
     </div>

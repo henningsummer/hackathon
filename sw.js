@@ -6,6 +6,7 @@ self.addEventListener('install', function(event) {
             return cache.addAll([
                 '/',
                 '/index.html',
+                '/login.html',
                 '/inicio.html',
                 '/segundo.html',
                 '/css/style.css',
@@ -18,6 +19,7 @@ self.addEventListener('install', function(event) {
                 '/images/pin.png',
                 '/images/ShareCar.png',
                 '/images/termo.png',
+                '/images/bg.jpg',
                 '/manifest.json',
             ]);
         })

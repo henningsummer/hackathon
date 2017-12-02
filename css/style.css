@@ -20,23 +20,30 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: rgba(140, 199, 57, 1);
+    background: -moz-linear-gradient(-45deg, rgba(140, 199, 57, 1) 0%, rgba(140, 199, 57, 1) 3%, rgba(91, 135, 21, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(140, 199, 57, 1)), color-stop(3%, rgba(140, 199, 57, 1)), color-stop(100%, rgba(91, 135, 21, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(140, 199, 57, 1) 0%, rgba(140, 199, 57, 1) 3%, rgba(91, 135, 21, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(140, 199, 57, 1) 0%, rgba(140, 199, 57, 1) 3%, rgba(91, 135, 21, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(140, 199, 57, 1) 0%, rgba(140, 199, 57, 1) 3%, rgba(91, 135, 21, 1) 100%);
+    background: linear-gradient(135deg, rgba(140, 199, 57, 1) 0%, rgba(140, 199, 57, 1) 3%, rgba(91, 135, 21, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8cc739', endColorstr='#5b8715', GradientType=1);
 }
 
-
 p {
-    color: #8cc739;
+    color:white;
     font-size: 0.8em;
     font-family: 'Roboto', sans-serif;
 }
 
-p{
-	color: #8cc739;
-	font-size:0.8em;
-	font-family: 'Roboto', sans-serif;
-		
-	}
-body{height: 100%}
-	textarea:focus, input:focus, select:focus {
+
+body {
+    height: 100%
+}
+
+textarea:focus,
+input:focus,
+select:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
@@ -121,18 +128,30 @@ body{height: 100%}
     padding-top: 20px;
 }
 
-.inpult-verde{ border-bottom: 1px solid #8cc739;  border-top:none; font-size: 1.0em; border-left: none; border-right: none; text-align: center; width: 100%; line-height: 40px ;    font-family: 'linotte-semibolduploaded_file';}
+.inpult-verde {
+    border-bottom: 1px solid #8cc739;
+    border-top: none;
+    font-size: 1.0em;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    font-family: 'linotte-semibolduploaded_file';
+}
 
 #inicial p {
-	color: #fff;
-	font-size: 1.0em;
-	text-align: center;
+    color: #fff;
+    font-size: 1.0em;
+    text-align: center;
 }
-.logo-big {
-	margin-top: 230px;
 
+.logo-big {
+    margin-top: 230px;
 }
+
 .btn-login {
+    text-decoration: none;
     width: 84%;
     margin: 0 auto;
     display: block;
@@ -236,3 +255,5 @@ body{height: 100%}
 .img-responsive {
     width: 200px;
 }
+
+
