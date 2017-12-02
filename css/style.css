@@ -19,7 +19,7 @@ p{
 	font-family: 'Roboto', sans-serif;
 		
 	}
-
+body{height: 100%}
 	textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -80,6 +80,14 @@ p{
 }
 .inpult-verde{ border-bottom: 1px solid #8cc739;  border-top:none; font-size: 1.0em; border-left: none; border-right: none; text-align: center; width: 100%; line-height: 40px ;    font-family: 'linotte-semibolduploaded_file';}
 
+#inicial p {
+	color: #fff;
+	font-size: 1.0em;
+	text-align: center;
+}
+.logo-big {
+	margin-top: 230px;
+}
 
 .btn-login {
 	width: 68%;
