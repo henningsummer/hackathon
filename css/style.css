@@ -150,10 +150,11 @@ select:focus {
     font-size: 1.0em;
     text-align: center;
 }
-#inicial { margin: 0 22%; display: block}
+#inicial { margin: 0 auto; width:100%; text-align: center;}
 
 .logo-big {
-    margin-top: 230px;
+	margin: 180px auto 70px auto;
+	
 }
 
 .btn-login {
@@ -287,7 +288,7 @@ select:focus {
 	height: 44px;
 	text-align: center;
 	padding-top: 18px;
-	margin: 110px auto;
+	margin: 0px auto;
 	font-size: 26px;
 	font-weight: bolder;
 }
@@ -297,9 +298,6 @@ select:focus {
 	text-decoration: none;
 }
 
-.logo-big {
-	margin-top: 220px;
-}
 
 .logo-big p {
 	color: #fff;
