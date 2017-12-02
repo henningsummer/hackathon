@@ -20,6 +20,8 @@
 
 body {
 	height: 100%;
+	
+
     font-family: 'Roboto', sans-serif;  
 }
 
@@ -29,10 +31,7 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-<<<<<<< HEAD
-body {
-    height: 100%
-=======
+
 
 
 .container {
@@ -40,7 +39,6 @@ body {
 	display: block;
 	position: absolute;
 	
->>>>>>> e91657c16cb49e35262a2043b042816a30ef0e96
 }
 
 textarea:focus,
@@ -152,6 +150,7 @@ select:focus {
     font-size: 1.0em;
     text-align: center;
 }
+#inicial { margin: 0 22%; display: block}
 
 .logo-big {
     margin-top: 230px;
@@ -277,4 +276,31 @@ select:focus {
 
 .img-responsive {
     width: 200px;
+}
+.btn-verde {
+	width: 70%;
+	display: block;
+	background: #fff;
+	border-radius: 20px;
+	height: 44px;
+	text-align: center;
+	padding-top: 18px;
+	margin: 110px auto;
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+.btn-verde a {
+	color: #5b8715;
+	text-decoration: none;
+}
+
+.logo-big {
+	margin-top: 220px;
+}
+
+.logo-big p {
+	color: #fff;
+	text-align: center;
+	font-size: 1.2em;
 }
