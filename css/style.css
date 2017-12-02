@@ -22,15 +22,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 p {
     color: #8cc739;
     font-size: 0.8em;
     font-family: 'Roboto', sans-serif;
 }
 
-textarea:focus,
-input:focus,
-select:focus {
+p{
+	color: #8cc739;
+	font-size:0.8em;
+	font-family: 'Roboto', sans-serif;
+		
+	}
+body{height: 100%}
+	textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
@@ -115,18 +121,17 @@ select:focus {
     padding-top: 20px;
 }
 
-.inpult-verde {
-    border-bottom: 1px solid #8cc739;
-    border-top: none;
-    font-size: 1.0em;
-    border-left: none;
-    border-right: none;
-    text-align: center;
-    width: 100%;
-    line-height: 40px;
-    font-family: 'linotte-semibolduploaded_file';
-}
+.inpult-verde{ border-bottom: 1px solid #8cc739;  border-top:none; font-size: 1.0em; border-left: none; border-right: none; text-align: center; width: 100%; line-height: 40px ;    font-family: 'linotte-semibolduploaded_file';}
 
+#inicial p {
+	color: #fff;
+	font-size: 1.0em;
+	text-align: center;
+}
+.logo-big {
+	margin-top: 230px;
+
+}
 .btn-login {
     width: 84%;
     margin: 0 auto;
