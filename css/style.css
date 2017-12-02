@@ -24,11 +24,15 @@ body {
 }
 
 p {
-    color:white;
+    color: white;
     font-size: 0.8em;
     font-family: 'Roboto', sans-serif;
 }
 
+<<<<<<< HEAD
+body {
+    height: 100%
+=======
 
 
 .container {
@@ -36,6 +40,7 @@ p {
 	display: block;
 	position: absolute;
 	
+>>>>>>> e91657c16cb49e35262a2043b042816a30ef0e96
 }
 
 textarea:focus,
@@ -273,5 +278,3 @@ select:focus {
 .img-responsive {
     width: 200px;
 }
-
-
