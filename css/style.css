@@ -161,9 +161,9 @@ select:focus {
     width: 84%;
     margin: 0 auto;
     display: block;
-    background: #5b8715;
     border-radius: 10px;
-    color: #fff;
+	color: #5b8715;
+	background: #fff;
     height: 40px;
     margin-top: 25px;
 	border: none;
@@ -204,11 +204,13 @@ select:focus {
     text-align: center;
     padding-top: 20px;
 }
+.P-gren {color: #5b8715; text-align: center}
 
 .infor {
     width: 70%;
     display: block;
-    margin: 10px auto;
+	margin: 10px auto;
+	color: #5b8715;
 }
 
 .bloco img {
