@@ -4,7 +4,17 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open(CACHE_NAME).then(function(cache) {
             return cache.addAll([
+                '/',
                 '/index.html',
+                '/inicio.html',
+                '/segundo.html',
+                '/css/style.css',
+                '/images/Bike.png',
+                '/images/Bus.png',
+                '/images/Car.png',
+                '/images/IconEcoe.png',
+                '/images/logo.png',
+                '/manifest.json',
             ]);
         })
     )
