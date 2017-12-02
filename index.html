@@ -2,40 +2,61 @@
 <html>
 
 <body>
-    <p id="demo">Clique no botão para receber sua localização em Latitude e Longitude:</p>
-    <button onclick="getLocation()">Clique Aqui</button>
-
-    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyA89vkukqcrz2D_cUxdZnw_pfqRVder4E0",
-            authDomain: "ecoe-fa4f2.firebaseapp.com",
-            databaseURL: "https://ecoe-fa4f2.firebaseio.com",
-            projectId: "ecoe-fa4f2",
-            storageBucket: "ecoe-fa4f2.appspot.com",
-            messagingSenderId: "767348743796"
-        };
-        firebase.initializeApp(config);
-    </script>
-
-
-
-
+    <p id="demo">Clique no botão para obter sua localização:</p>
+    <button onclick="getLocation()">Clique aqui</button>
+    <div id="mapholder"></div>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script>
         var x = document.getElementById("demo");
 
         function getLocation() {
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition);
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
             } else {
-                x.innerHTML = "O seu navegador não suporta Geolocalização.";
+                x.innerHTML = "Geolocalização não é suportada nesse browser.";
             }
         }
 
         function showPosition(position) {
-            x.innerHTML = "Latitude: " + position.coords.latitude +
-                "<br>Longitude: " + position.coords.longitude;
+            lat = position.coords.latitude;
+            lon = position.coords.longitude;
+            latlon = new google.maps.LatLng(lat, lon)
+            mapholder = document.getElementById('mapholder')
+            mapholder.style.height = '250px';
+            mapholder.style.width = '500px';
+
+            var myOptions = {
+                center: latlon,
+                zoom: 14,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                mapTypeControl: false,
+                navigationControlOptions: {
+                    style: google.maps.NavigationControlStyle.SMALL
+                }
+            };
+            var map = new google.maps.Map(document.getElementById("mapholder"), myOptions);
+            var marker = new google.maps.Marker({
+                position: latlon,
+                map: map,
+                title: "Você está Aqui!"
+            });
+        }
+
+        function showError(error) {
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    x.innerHTML = "Usuário rejeitou a solicitação de Geolocalização."
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    x.innerHTML = "Localização indisponível."
+                    break;
+                case error.TIMEOUT:
+                    x.innerHTML = "O tempo da requisição expirou."
+                    break;
+                case error.UNKNOWN_ERROR:
+                    x.innerHTML = "Algum erro desconhecido aconteceu."
+                    break;
+            }
         }
     </script>
 </body>
@@ -43,4 +64,4 @@
 </html>
 
 
-Read more: http://www.linhadecodigo.com.br/artigo/3653/usando-geolocalizacao-com-html5.aspx#ixzz5064lpefe
+Read more: http://www.linhadecodigo.com.br/artigo/3653/usando-geolocalizacao-com-html5.aspx#ixzz506LkfgHY
