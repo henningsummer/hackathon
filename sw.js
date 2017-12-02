@@ -6,12 +6,19 @@ self.addEventListener('install', function(event) {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/index2.html',
                 '/inicio.html',
                 '/segundo.html',
                 '/css/style.css',
-                '/manifest.js',
-                '/images/',
+                '/images/Bike.png',
+                '/images/Bus.png',
+                '/images/Car.png',
+                '/images/IconEcoe.png',
+                '/images/logoEcoe.png',
+                '/images/logoEcoeB.png',
+                '/images/pin.png',
+                '/images/ShareCar.png',
+                '/images/termo.png',
+                '/manifest.json',
             ]);
         })
     )
