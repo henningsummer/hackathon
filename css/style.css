@@ -197,6 +197,7 @@ select:focus {
 	background: #8cc739;
 	bottom: 0;
 	position: absolute;
+	display: none;
 }
 
 .alerta p {
