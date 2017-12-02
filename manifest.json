@@ -6,8 +6,8 @@
     "display": "standalone",
     "start_url": "/",
     "icons": [{
-        "src": "images/logo.png",
-        "sizes": "72x72",
+        "src": "images/iconEcoe.png",
+        "sizes": "420x420",
         "type": "image/png"
     }]
 }
