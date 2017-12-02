@@ -1,0 +1,13 @@
+{
+    "name": "EcoeApp",
+    "short_name": "EcoeApp",
+    "theme_color": "#8cc739",
+    "background_color": "#5b8715",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": [{
+        "src": "images/logo.png",
+        "sizes": "72x72",
+        "type": "image/png"
+    }]
+}
