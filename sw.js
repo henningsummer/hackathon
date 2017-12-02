@@ -13,7 +13,11 @@ self.addEventListener('install', function(event) {
                 '/images/Bus.png',
                 '/images/Car.png',
                 '/images/IconEcoe.png',
-                '/images/logo.png',
+                '/images/logoEcoe.png',
+                '/images/logoEcoeB.png',
+                '/images/pin.png',
+                '/images/ShareCar.png',
+                '/images/termo.png',
                 '/manifest.json',
             ]);
         })

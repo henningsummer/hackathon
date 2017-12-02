@@ -27,6 +27,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script> -->
 </head>
 
 <body>
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyA89vkukqcrz2D_cUxdZnw_pfqRVder4E0",
+            authDomain: "ecoe-fa4f2.firebaseapp.com",
+            databaseURL: "https://ecoe-fa4f2.firebaseio.com",
+            projectId: "ecoe-fa4f2",
+            storageBucket: "ecoe-fa4f2.appspot.com",
+            messagingSenderId: "767348743796"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
@@ -43,7 +60,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script> -->
     <div class="container">
 
         <div class="logo">
-            <center><img src="images/logo.png" alt="logo" class="img-responsive" width="100px"></center>
+            <center><img src="images/logoEcoe.png" alt="logo" class="img-responsive" width="100px"></center>
 
             <p class="topo-logo">Conscientizando Pessoas!</p>
             <p class="strong">Vamos juntos ajudar nosso planeta!</p>
