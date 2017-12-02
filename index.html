@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-<p id="demo">Clique no botão para receber sua localização em Latitude e Longitude:</p>
-<button onclick="getLocation()">Clique Aqui</button>
-<script>
-var x=document.getElementById("demo");
-function getLocation()
-  {
-  if (navigator.geolocation)
-    {
-    navigator.geolocation.getCurrentPosition(showPosition);
-    }
-  else{x.innerHTML="O seu navegador não suporta Geolocalização.";}
-  }
-function showPosition(position)
-  {
-  x.innerHTML="Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;  
-  }
-</script>
+    <p id="demo">Clique no botão para receber sua localização em Latitude e Longitude:</p>
+    <button onclick="getLocation()">Clique Aqui</button>
+
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyA89vkukqcrz2D_cUxdZnw_pfqRVder4E0",
+            authDomain: "ecoe-fa4f2.firebaseapp.com",
+            databaseURL: "https://ecoe-fa4f2.firebaseio.com",
+            projectId: "ecoe-fa4f2",
+            storageBucket: "ecoe-fa4f2.appspot.com",
+            messagingSenderId: "767348743796"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+
+
+
+    <script>
+        var x = document.getElementById("demo");
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "O seu navegador não suporta Geolocalização.";
+            }
+        }
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
 </body>
+
 </html>
 
 
