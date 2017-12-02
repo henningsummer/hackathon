@@ -20,24 +20,44 @@ function hideURLbar(){ window.scrollTo(0,1); } </script> -->
     <!-- Font-Awesome-Icons-CSS -->
     <!-- //css files -->
     <!-- Web-Fonts -->
+    <style>
+    .btn-verde {
+	width: 70%;
+	display: block;
+	background: #fff;
+	border-radius: 20px;
+    height: 38px;
+    text-align: center;
+    padding-top:12px;
+    margin: 110px auto;
+   
+  
+}
+
+body {
+    background:url('images/bg.jpg');
+ background-size: 100% 100%;
+ 
+
+}
+.btn-verde a {color: #5b8715; text-decoration: none;}
+.logo-big {
+    margin-top: 220px;
+}
+.logo-big p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+    </style>
     <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
     <!-- //Web-Fonts -->
 
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
-                .then(function() {
-                    console.log('service worker registered');
-                })
-                .catch(function() {
-                    console.warn('service worker failed');
-                });
-        }
-    </script>
+   
 </head>
 
-<body  style="background:url('images/bg.jpg') ">
+<body>
     <div></div>
     <div class="container" id="inicial" >
 
@@ -45,14 +65,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script> -->
 
         <div class="logo-big">
             <center><img src="images/logoEcoeB.png" alt="logo" class="img-responsive" width="200px"></center>
+            <p>Redução colaborativa de <br> gases poluentes</p>
         </div>
-        <p>Redução colaborativa de gases poluentes</p>
+        
 
-        <a class="iniciar" href="index1.html">Iniciar</a>
-
-       
-       
-       
+        <div class="btn-verde"><a href="index1.html"  >Iniciar</a></div>
 
         <div class="clear"></div>
     </div>
