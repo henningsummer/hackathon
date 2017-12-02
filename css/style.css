@@ -14,8 +14,46 @@
 p{
 	color: #8cc739;
 	font-size:0.8em;
-	  font-family: 'linotte-semibolduploaded_file';
+		font-family: 'linotte-semibolduploaded_file';
+		
 	}
+
+	textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.alert {
+	width: 10px;
+	height: 10px;
+	border-radius: 100px;
+	display: block;
+	float: right;
+	padding: 0px!important;
+}
+
+.red{	background: #ff0000;}
+.yellow{	background: #e5df05;}
+.green {	background: #5b8715;}
+.icon-gps {
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+.rota input[type='text'] {
+	background: #cecece;
+	margin: 0 auto;
+	width: 80%;
+	display: block; 	
+	border: none;
+	border-radius: 15px;
+	height: 40px;
+}
+	#inicio h2 {text-align: center; color: #8cc739; font-size: 0.9em;}
+
+.localizacao {text-align: center; color: #8cc739; font-size: 0.9em; text-align: center; margin: 0 auto;}
 .graus {
 	color: #8cc739;
 	font-size: 2.1em
@@ -36,7 +74,7 @@ p{
 	padding-top: 20px;
 }
 .inpult-verde{ border-bottom: 1px solid #8cc739;  border-top:none; border-left: none; border-right: none; text-align: center; width: 100%; line-height: 40px ;    font-family: 'linotte-semibolduploaded_file';}
-
+.
 
 .btn-login {
 	width: 68%;
