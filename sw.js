@@ -4,14 +4,7 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open(CACHE_NAME).then(function(cache) {
             return cache.addAll([
-                '/',
                 '/index.html',
-                '/index2.html',
-                '/inicio.html',
-                '/segundo.html',
-                '/css/style.css',
-                '/manifest.js',
-                '/images/',
             ]);
         })
     )
