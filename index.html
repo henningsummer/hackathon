@@ -42,6 +42,20 @@
             });
         }
 
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 13,
+                center: {
+                    lat: -8.0609175,
+                    lng: -34.8723605
+                }
+            });
+
+            var trafficLayer = new google.maps.TrafficLayer();
+            trafficLayer.setMap(map);
+        }
+
+
         function showError(error) {
             switch (error.code) {
                 case error.PERMISSION_DENIED:
@@ -59,9 +73,7 @@
             }
         }
     </script>
+
 </body>
 
 </html>
-
-
-Read more: http://www.linhadecodigo.com.br/artigo/3653/usando-geolocalizacao-com-html5.aspx#ixzz506LkfgHY
