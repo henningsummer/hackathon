@@ -1,0 +1,73 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #5b8715;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #5b8715;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #5b8715;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #5b8715;
+}
+
+p{
+	color: #8cc739;
+	font-size:0.8em;
+	  font-family: 'linotte-semibolduploaded_file';
+	}
+.graus {
+	color: #8cc739;
+	font-size: 2.1em
+
+}
+.cadastro {
+	width: 80%;
+	border: none;
+	margin: 0 auto;
+}
+
+.logo {
+	margin: 30px auto;
+}
+.btn-facebook {
+	width: 80%;
+	height: 30px;
+	padding-top: 20px;
+}
+.inpult-verde{ border-bottom: 1px solid #8cc739;  border-top:none; border-left: none; border-right: none; text-align: center; width: 100%; line-height: 40px ;    font-family: 'linotte-semibolduploaded_file';}
+
+
+.btn-login {
+	width: 68%;
+	margin: 0 auto;
+	display: block;
+	background: #8cc739;
+	border-radius: 100px;
+	color: #fff;
+	height: 35px;
+	margin-top:15px;
+	border: none;
+	  font-family: 'linotte-semibolduploaded_file';
+}
+.btn-facebook {
+	width: 57%;
+	margin: 0 auto;
+	display: block;
+	background: #8cc739;
+	border-radius: 100px;
+	color: #fff;
+	height: 35px;
+	margin-top:25px;
+	border: none;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 0.9em;
+	  font-family: 'linotte-semibolduploaded_file';
+
+}
+.infor {
+	width: 70%;
+	display: block;
+	margin: 10px auto;
+}
