@@ -107,30 +107,30 @@ select:focus {
     display: block;
     font-size: 0.9em;
     margin: 0 auto;
-    text-align: center
+    text-align: center;
 }
 
 .graus {
     color: #fff;
-    font-size: 2.4em
+    font-size: 2.4em;
+    text-shadow: 4px 2px 3px #00000082;
 }
 
+
+}
 .cadastro {
     width: 80%;
     border: none;
     margin: 0 auto;
 }
-
 .logo {
     margin: 200px auto;
 }
-
 .btn-facebook {
     width: 80%;
     height: 30px;
     padding-top: 20px;
 }
-
 .inpult-verde {
     border-bottom: 1px solid #8cc739;
     border-top: none;
@@ -142,40 +142,38 @@ select:focus {
     line-height: 40px;
     font-family: 'linotte-semibolduploaded_file';
 }
-
 #inicial p {
     color: #fff;
     font-size: 1.0em;
     text-align: center;
 }
-
 #inicial {
     margin: 0 auto;
     width: 100%;
     text-align: center;
 }
-
 .logo-big {
     margin: 180px auto 70px auto;
 }
-
 .btn-login {
     text-decoration: none;
-    width: 84%;
+    width: 80%;
     margin: 0 auto;
     display: block;
     border-radius: 10px;
     color: #5b8715;
     background: #fff;
-    height: 40px;
+    height: 34px;
+    padding-top: 15px;
     margin-top: 25px;
     border: none;
     text-decoration: none;
     font-size: 1.0em;
     font-family: 'linotte-semibolduploaded_file';
     text-align: center;
+    position: absolute;
+    margin-left: 34px;
 }
-
 .btn-facebook {
     width: 68%;
     margin: 0 auto;
@@ -193,11 +191,9 @@ select:focus {
     font-size: 1.0em;
     font-family: 'linotte-semibolduploaded_file';
 }
-
 .cler {
     clear: both!important;
 }
-
 .alerta {
     width: 100%;
     height: 120px;
@@ -206,30 +202,25 @@ select:focus {
     position: absolute;
     display: none;
 }
-
 .alerta p {
     color: #fff;
     font-size: 1.0em;
     text-align: center;
     padding-top: 20px;
 }
-
 .P-gren {
     color: #5b8715;
     text-align: center
 }
-
 .infor {
     width: 70%;
     display: block;
     margin: 10px auto;
     color: #5b8715;
 }
-
 .bloco img {
     float: left
 }
-
 .bloco {
     height: 70px;
     width: 70%;
@@ -238,43 +229,36 @@ select:focus {
     display: block;
     background: none;
 }
-
 #segundo {
     margin: 30px auto;
     display: block;
     width: 100%;
 }
-
 .info {
     width: 90%;
     margin-left: 1%;
     display: block;
 }
-
 .bloco p {
     margin-top: 8px;
     float: right;
     color: #5b8715;
 }
-
 .Activo p {
     margin-top: 8px;
     float: right;
 }
-
 .Activo {
     font-weight: bold;
     background: #f0f0f0;
     border-radius: 10px;
     border: 1px solid #cecece;
 }
-
 #segundo p {
     text-align: center;
     font-size: 1.0em;
     color: #5b8715;
 }
-
 #segundo output {
     color: #5b8715;
     font-size: 1.0em;
@@ -282,22 +266,22 @@ select:focus {
     font-size: 1.3em;
     margin-top: 10px;
 }
-
 .topo-logo {
     margin-top: 8px;
     text-align: center;
+    color: #5b8715;
 }
-
 .strong {
     font-weight: bolder;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.0em;
+    text-shadow: 4px 2px 3px #0000000f;
+    ;
+    color: #5b8715;
 }
-
 .img-responsive {
     width: 200px;
 }
-
 .btn-verde {
     width: 70%;
     display: block;
@@ -310,14 +294,15 @@ select:focus {
     font-size: 26px;
     font-weight: bolder;
 }
-
 .btn-verde a {
     color: #5b8715;
     text-decoration: none;
 }
-
 .logo-big p {
     color: #fff;
     text-align: center;
     font-size: 1.2em;
+}
+.btn-novo a {
+    text-align: center;
 }
