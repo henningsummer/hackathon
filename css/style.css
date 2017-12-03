@@ -19,10 +19,8 @@
 }
 
 body {
-	height: 100%;
-	
-
-    font-family: 'Roboto', sans-serif;  
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -31,14 +29,10 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-
 .container {
-	height: 100%;
-	display: block;
-	position: absolute;
-	
+    height: 100%;
+    display: block;
+    position: absolute;
 }
 
 textarea:focus,
@@ -87,7 +81,7 @@ select:focus {
     width: 80%;
     display: block;
     border: none;
-    border-radius:5px;
+    border-radius: 5px;
     height: 40px;
     font-family: 'Roboto', sans-serif;
 }
@@ -103,14 +97,18 @@ select:focus {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 1.0em;
-	text-align: center;
-	
+    text-align: center;
     margin: 0 auto;
+    text-shadow: 4px 2px 3px black;
 }
-.dicas {width: 80%;
-	display: block;
-	font-size: 0.9em;
-	margin: 0 auto; text-align: center}
+
+.dicas {
+    width: 80%;
+    display: block;
+    font-size: 0.9em;
+    margin: 0 auto;
+    text-align: center
+}
 
 .graus {
     color: #fff;
@@ -150,11 +148,15 @@ select:focus {
     font-size: 1.0em;
     text-align: center;
 }
-#inicial { margin: 0 auto; width:100%; text-align: center;}
+
+#inicial {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
 
 .logo-big {
-	margin: 180px auto 70px auto;
-	
+    margin: 180px auto 70px auto;
 }
 
 .btn-login {
@@ -163,14 +165,15 @@ select:focus {
     margin: 0 auto;
     display: block;
     border-radius: 10px;
-	color: #5b8715;
-	background: #fff;
+    color: #5b8715;
+    background: #fff;
     height: 40px;
     margin-top: 25px;
-	border: none;
-	text-decoration: none;
+    border: none;
+    text-decoration: none;
     font-size: 1.0em;
     font-family: 'linotte-semibolduploaded_file';
+    text-align: center;
 }
 
 .btn-facebook {
@@ -190,14 +193,18 @@ select:focus {
     font-size: 1.0em;
     font-family: 'linotte-semibolduploaded_file';
 }
-.cler {clear: both!important;}
+
+.cler {
+    clear: both!important;
+}
+
 .alerta {
     width: 100%;
     height: 120px;
-	background: #8cc739;
-	bottom: 0;
-	position: absolute;
-	display: none;
+    background: #8cc739;
+    bottom: 0;
+    position: absolute;
+    display: none;
 }
 
 .alerta p {
@@ -206,13 +213,17 @@ select:focus {
     text-align: center;
     padding-top: 20px;
 }
-.P-gren {color: #5b8715; text-align: center}
+
+.P-gren {
+    color: #5b8715;
+    text-align: center
+}
 
 .infor {
     width: 70%;
     display: block;
-	margin: 10px auto;
-	color: #5b8715;
+    margin: 10px auto;
+    color: #5b8715;
 }
 
 .bloco img {
@@ -225,27 +236,25 @@ select:focus {
     margin: 0 auto;
     border: none;
     display: block;
-	background: none;
-	
+    background: none;
 }
 
 #segundo {
-	margin: 30px auto;
-	display: block;
-	width: 100%;
-	
-
+    margin: 30px auto;
+    display: block;
+    width: 100%;
 }
+
 .info {
-	width: 90%;
-	margin-left: 1%;
-	display: block;
+    width: 90%;
+    margin-left: 1%;
+    display: block;
 }
 
 .bloco p {
     margin-top: 8px;
-	float: right;
-	color: #5b8715;
+    float: right;
+    color: #5b8715;
 }
 
 .Activo p {
@@ -262,11 +271,18 @@ select:focus {
 
 #segundo p {
     text-align: center;
-	font-size: 1.0em;
-	color: #5b8715;
-
+    font-size: 1.0em;
+    color: #5b8715;
 }
-#segundo output{color: #5b8715; font-size: 1.0em; float: right; font-size: 1.3em; margin-top:10px;}
+
+#segundo output {
+    color: #5b8715;
+    font-size: 1.0em;
+    float: right;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
 .topo-logo {
     margin-top: 8px;
     text-align: center;
@@ -281,27 +297,27 @@ select:focus {
 .img-responsive {
     width: 200px;
 }
+
 .btn-verde {
-	width: 70%;
-	display: block;
-	background: #fff;
-	border-radius: 20px;
-	height: 44px;
-	text-align: center;
-	padding-top: 18px;
-	margin: 0px auto;
-	font-size: 26px;
-	font-weight: bolder;
+    width: 70%;
+    display: block;
+    background: #fff;
+    border-radius: 20px;
+    height: 44px;
+    text-align: center;
+    padding-top: 18px;
+    margin: 0px auto;
+    font-size: 26px;
+    font-weight: bolder;
 }
 
 .btn-verde a {
-	color: #5b8715;
-	text-decoration: none;
+    color: #5b8715;
+    text-decoration: none;
 }
 
-
 .logo-big p {
-	color: #fff;
-	text-align: center;
-	font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
 }
